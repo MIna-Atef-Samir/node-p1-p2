@@ -1,0 +1,52 @@
+{
+  "name": "Fluffyy",
+  "activities": [
+    "play",
+    "eat cat food"
+  ],
+  "catFriends": [
+    {
+      "name": "bar",
+      "activities": [
+        "be grumpy",
+        "eat bread omblet",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football"
+      ],
+      "weight": 8,
+      "furcolor": "black"
+    },
+    {
+      "name": "foo",
+      "activities": [
+        "sleep",
+        "pre-sleep naps",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football",
+        "Eat",
+        "Play Football"
+      ],
+      "weight": 3
+    }
+  ],
+  "hight": 100,
+  "weight": 50
+}
