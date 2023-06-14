@@ -13,22 +13,21 @@ const securityQuestions = [
   },
 ];
 
-// Complete this function to check if the answer to the question is valid or not and return a boolean
 function chksecurityQuestions(securityQuestions, question, ans) {
-  // your code here true or false
+  const foundQuestion = securityQuestions.find(
+    (sec) => sec.question === question && sec.expectedAnswer === ans
+  );
+  
+  return foundQuestion !== undefined;
 }
 
 const cases = [
   { question: "What was your first pet’s name?", ans: "FlufferNutter" },
-  {
-    question: "What was your first pet’s name?",
-    ans: "DufferNutter",
-  },
+  { question: "What was your first pet’s name?", ans: "DufferNutter" },
 ];
 
 const res = cases.map(({ question, ans }) =>
   chksecurityQuestions(securityQuestions, question, ans)
 );
 
-// should print [true, false]
 console.log(res);
